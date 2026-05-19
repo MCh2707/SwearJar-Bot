@@ -1,76 +1,66 @@
-# SwearJar-Bot
-A simple Discord moderation bot built with C# that tracks how many times users swear in a server.  
+# SwearJar (Console Version)
 
-This project is split into two main branches:
+A simple C# console application that detects and counts swear words from user input.  
+This is the **core logic version** of the SwearJar project — no Discord integration, just pure backend logic testing.
 
-### 🧪 dev (logic branch)
-- Core C# logic only
-- Console-based testing
-- No Discord integration
-- Used for developing and debugging the swear detection system
+This version is used to:
+- Test swear word detection logic
+- Track how many times a user uses profanity
+- Validate core system before Discord bot integration
 
-### 🚀 main (production branch)
-- Full Discord bot implementation
-- Uses Discord.NET
-- Real-time message tracking in servers
-- Ready-to-use bot version
 
-## ✨ Features
-
-- 📊 Counts user swear words
-- 👤 Tracks per-user statistics
-- ⚡ Real-time message detection
-- 🛡️ Custom swear word filtering
-- 📁 Simple architecture
-- 💬 Discord integration (main branch)
-
-## Built With
+## 🛠️ Built With
 
 - C#
-- .NET
-- Discord.NET
+- .NET Console Application
 
+---
 
 ## 🚀 How to Run
 
-### dev branch (console version)
+Clone the repository:
 
 ```bash
-git checkout dev
-dotnet run
+git clone https://github.MCh2707/SwearJar.git
 ```
 
-### main branch (Discord bot)
+Go to the project folder:
 
 ```bash
-git checkout main
-dotnet restore
+cd SwearJar
+```
+
+Run the program:
+
+```bash
 dotnet run
 ```
 
 ---
 
-## ⚙️ Configuration (main branch)
+## 💻 How It Works
 
-Create `appsettings.json`:
+The program:
+1. Asks user for input
+2. Checks text for banned words
+3. Increases counter if swear words are found
+4. Displays updated user statistics in console
 
-```json
-{
-  "Token": "YOUR_DISCORD_BOT_TOKEN"
-}
+Example:
+
+```text
+Enter message: hello bro
+No swear words detected
+
+Enter message: (bad word)
+Swear detected! Total count: 1
 ```
 
----
+## 📌 Notes
 
-## 📌 Future Improvements
-
-- Leaderboard system
-- Per-server settings
-- Warning / mute system
-- Web dashboard
+- This is a **logic-only version**
+- No Discord bot features included
+- Designed for testing and development purposes
 
 
-## 👨‍💻 Developer
-
-Created by **MCh27**  
-Building systems that measure how toxic people can get in chat.
+Created by **MCh27**

@@ -1,0 +1,8 @@
+E:\MyProjects\dc-bots\SwearJarBot\bin\Debug\SwearJarBot.exe.config
+E:\MyProjects\dc-bots\SwearJarBot\bin\Debug\SwearJarBot.exe
+E:\MyProjects\dc-bots\SwearJarBot\bin\Debug\SwearJarBot.pdb
+E:\MyProjects\dc-bots\SwearJarBot\obj\Debug\SwearJarBot.csproj.AssemblyReference.cache
+E:\MyProjects\dc-bots\SwearJarBot\obj\Debug\SwearJarBot.csproj.CoreCompileInputs.cache
+E:\MyProjects\dc-bots\SwearJarBot\obj\Debug\SwearJarBot.exe
+E:\MyProjects\dc-bots\SwearJarBot\obj\Debug\SwearJarBot.pdb
+E:\MyProjects\dc-bots\SwearJarBot\obj\Debug\SwearJarBot.exe.config
